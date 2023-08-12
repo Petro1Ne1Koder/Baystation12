@@ -69,6 +69,11 @@ datum/category_group/underwear/dd_SortValue()
 	UW.gender = underwear_gender
 	if(user.is_species(SPECIES_UNATHI))
 		UW.icon = 'icons/mob/underwear_unath.dmi'
+<<<<<<< Updated upstream
+=======
+	else if(user.is_species(SPECIES_YEOSA))
+		UW.icon = 'icons/mob/underwear_unath.dmi'
+>>>>>>> Stashed changes
 	else
 		UW.icon = icon
 	UW.icon_state = icon_state
